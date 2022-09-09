@@ -1,0 +1,1 @@
+select *,count(*) as contador from employees.titles group by title;
